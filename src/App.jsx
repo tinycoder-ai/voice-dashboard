@@ -451,7 +451,7 @@ async function callGeminiApi(userQuery) {
     }
   };
 
-  const apiKey = ""; // Generate the API key from Google AI Studio
+  const apiKey = ""; // Need to use a key generated from Google AI Studio
   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 
   let retries = 3;
