@@ -451,7 +451,7 @@ async function callGeminiApi(userQuery) {
     }
   };
 
-  const apiKey = "AIzaSyAAoRSAaxXRR6oE3fOITZ2NV612s5JF-j0"; // API key will be provided by the environment
+  const apiKey = ""; // Generate the API key from Google AI Studio
   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 
   let retries = 3;
